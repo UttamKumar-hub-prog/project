@@ -1,0 +1,5 @@
+package com.wipro.fooddeliveryapp.order.feign;
+
+public interface RestaurantClient {
+
+}

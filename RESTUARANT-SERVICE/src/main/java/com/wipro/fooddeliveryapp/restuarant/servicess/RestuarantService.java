@@ -1,0 +1,47 @@
+package com.wipro.fooddeliveryapp.restuarant.servicess;
+
+import java.util.List;
+
+import com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant;
+
+public interface RestuarantService {
+
+	Restuarant saveData(Restuarant restuarant);
+
+	List<Restuarant> getAll();
+
+	Restuarant getRestaurantById(Long id);
+
+	void deleteRestaurant(Long id);
+
+	Restuarant updateRestaurant(Long id, Restuarant restaurant);
+
+	Restuarant patchUpdateById(Long id, Restuarant restaurant);
+
+	
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 

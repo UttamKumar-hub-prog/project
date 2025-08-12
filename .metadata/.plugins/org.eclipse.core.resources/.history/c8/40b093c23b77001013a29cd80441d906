@@ -1,0 +1,15 @@
+package com.wipro.fooddeliveryapp.restuarant.servicess;
+
+import org.springframework.stereotype.Service;
+
+import com.wipro.fooddeliveryapp.restuarant.repositorys.RestuarantRepository;
+
+import lombok.RequiredArgsConstructor;
+
+@Service
+@RequiredArgsConstructor
+public class RestuarantServiceImpl implements RestuarantService {
+
+	private final RestuarantRepository restuarantRepository;
+	
+}

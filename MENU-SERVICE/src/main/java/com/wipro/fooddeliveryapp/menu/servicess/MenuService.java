@@ -1,0 +1,23 @@
+package com.wipro.fooddeliveryapp.menu.servicess;
+
+import java.util.List;
+
+import com.wipro.fooddeliveryapp.menu.entity.Menu;
+
+public interface MenuService {
+
+	Menu createMenu(Menu menu, Long restaurantId);
+
+	List<Menu> getAllMenus();
+
+	Menu getMenuById(Long id);
+
+	List<Menu> getMenusByRestaurantId(Long restaurantId);
+
+	List<Menu> getSelectedMenus(Long restaurantId, List<String> items);
+
+	Menu updateMenu(Long id, Menu menu);
+
+	void deleteMenu(Long id);
+
+}

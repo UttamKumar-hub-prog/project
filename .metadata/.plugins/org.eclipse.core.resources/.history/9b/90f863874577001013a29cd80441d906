@@ -1,0 +1,8 @@
+package com.wipro.fooddeliveryapp.restuarant.repositorys;
+
+@Repository
+public interface MenuRepository extends JpaRepository<Menus, Long> {
+
+    Optional<Menus> findByRestaurantRidAndItemname(Long rid, String itemname);
+
+}

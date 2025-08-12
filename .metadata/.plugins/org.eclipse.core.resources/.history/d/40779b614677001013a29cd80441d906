@@ -1,0 +1,15 @@
+package com.wipro.fooddeliveryapp.restuarant.repositorys;
+
+import java.util.Optional;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+import com.wipro.fooddeliveryapp.restuarant.entitys.Menus;
+
+@Repository
+public interface MenuRepository extends JpaRepository<Menus, Long> {
+
+    Optional<Menus> findByRestaurantRidAndItemname(Long rid, String itemname);
+
+}

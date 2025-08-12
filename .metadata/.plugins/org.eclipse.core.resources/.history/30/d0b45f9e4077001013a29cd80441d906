@@ -1,0 +1,9 @@
+package com.wipro.fooddeliveryapp.restuarant.servicess;
+
+import com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant;
+
+public interface RestuarantService {
+
+	Restuarant saveData(Restuarant restuarant);
+
+}

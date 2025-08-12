@@ -1,0 +1,18 @@
+package com.wipro.fooddeliveryapp.restuarant.controlller;
+
+import org.springframework.web.bind.annotation.RestController;
+
+import com.wipro.fooddeliveryapp.restuarant.servicess.RestuarantServiceImpl;
+
+import lombok.RequiredArgsConstructor;
+
+@RestController
+@RequiredArgsConstructor
+public class RestuarantController {
+	private final RestuarantService restuarantService;
+	
+	
+	
+	
+
+}

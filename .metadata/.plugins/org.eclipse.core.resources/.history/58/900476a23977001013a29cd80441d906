@@ -1,0 +1,5 @@
+package com.wipro.fooddeliveryapp.restuarant.repositorys;
+
+public interface RestuarantRepository {
+
+}

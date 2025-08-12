@@ -1,0 +1,5 @@
+package com.wipro.fooddeliveryapp.menu.entity;
+
+public class Menu {
+
+}

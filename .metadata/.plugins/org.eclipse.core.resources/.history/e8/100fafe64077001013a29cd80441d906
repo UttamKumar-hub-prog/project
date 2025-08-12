@@ -1,0 +1,33 @@
+package com.wipro.fooddeliveryapp.restuarant.servicess;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant;
+import com.wipro.fooddeliveryapp.restuarant.repositorys.RestuarantRepository;
+
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+
+@Service
+@Slf4j
+@RequiredArgsConstructor
+public class RestuarantServiceImpl implements RestuarantService {
+
+	private final RestuarantRepository restuarantRepository;
+
+	@Override
+	public Restuarant saveData(Restuarant restuarant) {
+		if (restuarant.getMenus() != null) {
+			restuarant.getMenus().forEach(menu -> menu.setRestuarant(restuarant));
+		}
+		return restuarantRepository.save(restuarant);
+	}
+
+	@Override
+	public List<Restuarant> getAll() {
+		return restuarantRepository.findAll();
+	}
+
+}

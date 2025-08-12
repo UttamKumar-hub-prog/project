@@ -1,0 +1,5 @@
+package com.wipro.fooddeliveryapp.menu.feign;
+
+public interface feign {
+
+}

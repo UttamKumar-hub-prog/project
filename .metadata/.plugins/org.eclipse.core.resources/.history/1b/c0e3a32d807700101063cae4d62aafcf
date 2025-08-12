@@ -1,0 +1,5 @@
+package com.wipro.fooddeliveryapp.order.entitys;
+
+public class Order {
+
+}

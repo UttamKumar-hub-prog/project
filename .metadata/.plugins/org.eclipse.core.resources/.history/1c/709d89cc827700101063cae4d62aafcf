@@ -1,0 +1,86 @@
+package com.wipro.fooddeliveryapp.order.services;
+
+import java.awt.Menu;
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.wipro.fooddeliveryapp.order.entitys.Order;
+import com.wipro.fooddeliveryapp.order.entitys.RestaurantDTO;
+import com.wipro.fooddeliveryapp.order.feign.MenuClient;
+import com.wipro.fooddeliveryapp.order.feign.RestaurantClient;
+import com.wipro.fooddeliveryapp.order.repositoryy.OrderRepository;
+
+import lombok.RequiredArgsConstructor;
+import lombok.extern.slf4j.Slf4j;
+
+@Service
+@Slf4j
+@RequiredArgsConstructor
+public class OrderServiceImpl implements OrderService {
+
+    private final OrderRepository orderRepository;
+    private final MenuClient menuClient;  // Feign client for MenuService
+    private final RestaurantClient restaurantClient;  // Feign client for RestaurantService
+
+    public Order placeOrder(Order order) {
+        // Step 1: Verify if the restaurant exists
+        RestaurantDTO restaurant = restaurantClient.getRestaurantById(order.getRestaurantId());
+        if (restaurant == null) {
+            throw new RuntimeException("Restaurant not found for ID: " + order.getRestaurantId());
+        }
+
+        // Step 2: Verify if the menu items exist
+        List<Menu> menus = menuClient.getMenusByIds(order.getMenuItemIds());
+        if (menus.isEmpty()) {
+            throw new RuntimeException("No valid menu items found for the provided IDs.");
+        }
+
+        // Step 3: Check if the restaurant is open (additional validation for operational status)
+        if (!restaurant.isOpen()) {
+            throw new RuntimeException("The restaurant is currently closed and cannot process orders.");
+        }
+
+        // Step 4: Check if the total price exceeds any defined thresholds (e.g., minimum order price or payment validation)
+        double totalAmount = menus.stream()
+                .mapToDouble(Menu::getPrice)
+                .sum();
+
+        if (totalAmount < 10.00) { // Example of a minimum order price check
+            throw new RuntimeException("The total order amount is below the minimum allowed ($10).");
+        }
+
+        // Step 5: Set the order status
+        order.setTotalAmount(totalAmount);
+        order.setOrderStatus("Pending");
+
+        // Log order details for debugging
+        log.info("Placing order for customer ID: {}, Restaurant: {}, Total amount: ${}, Menu items: {}", 
+                 order.getCustomerId(), restaurant.getName(), totalAmount, order.getMenuItemIds());
+
+        // Step 6: Save the order to the database
+        return orderRepository.save(order);
+    }
+    @Override
+    public List<Order> getAllOrders() {
+        return orderRepository.findAll();
+    }
+
+    @Override
+    public Order getOrderById(Long id) {
+        return orderRepository.findById(id)
+                .orElseThrow(() -> new RuntimeException("Order not found with ID: " + id));
+    }
+
+    @Override
+    public Order updateOrderStatus(Long id, String status) {
+        Order existingOrder = getOrderById(id);
+        existingOrder.setOrderStatus(status);
+        return orderRepository.save(existingOrder);
+    }
+
+    @Override
+    public void deleteOrder(Long id) {
+        orderRepository.deleteById(id);
+    }
+}

@@ -1,0 +1,49 @@
+package com.wipro.fooddeliveryapp.menu.servicess;
+
+import java.util.List;
+
+import org.springframework.stereotype.Service;
+
+import com.wipro.fooddeliveryapp.menu.entity.Menu;
+
+@Service
+public class MenuServiceImpl implements MenuService {
+	 private final MenuRepository menuRepository;
+
+	    public Menu saveMenu(Menu menu) {
+	        return menuRepository.save(menu);
+	    }
+
+	    public List<Menu> getAllMenus() {
+	        return menuRepository.findAll();
+	    }
+
+	    public Menu getMenuById(Long id) {
+	        return menuRepository.findById(id)
+	                .orElseThrow(() -> new RuntimeException("Menu not found with ID: " + id));
+	    }
+
+	    public List<Menu> getMenusByRestaurantId(Long restaurantId) {
+	        return menuRepository.findByRestaurantId(restaurantId);
+	    }
+
+	    public List<Menu> getSelectedMenus(Long restaurantId, List<String> itemNames) {
+	        return menuRepository.findByRestaurantIdAndItemNameIn(restaurantId, itemNames);
+	    }
+
+	    public Menu updateMenu(Long id, Menu updatedMenu) {
+	        Menu existing = getMenuById(id);
+
+	        existing.setItemName(updatedMenu.getItemName());
+	        existing.setPrice(updatedMenu.getPrice());
+	        existing.setRestaurantId(updatedMenu.getRestaurantId());
+
+	        return menuRepository.save(existing);
+	    }
+
+	    public void deleteMenu(Long id) {
+	        Menu existing = getMenuById(id);
+	        menuRepository.delete(existing);
+	    }
+	
+}

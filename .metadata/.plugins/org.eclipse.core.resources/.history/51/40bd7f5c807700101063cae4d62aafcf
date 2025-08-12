@@ -1,0 +1,8 @@
+package com.wipro.fooddeliveryapp.order.entitys;
+
+import jakarta.persistence.Entity;
+
+@Entity
+public class Order {
+
+}

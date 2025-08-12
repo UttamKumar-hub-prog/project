@@ -1,0 +1,10 @@
+package com.wipro.fooddeliveryapp.restuarant.entitys;
+
+import lombok.Data;
+
+@Data
+@Entity
+
+public class Restuarant {
+
+}

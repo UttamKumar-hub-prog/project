@@ -1,0 +1,12 @@
+package com.wipro.fooddeliveryapp.menu.repositorys;
+
+import java.util.List;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.wipro.fooddeliveryapp.menu.entity.Menu;
+
+public interface MenuRepository extends JpaRepository<Menu, Long> {
+	  List<Menu> findByRestaurantId(Long restaurantId);
+	    List<Menu> findByRestaurantIdAndItemNameIn(Long restaurantId, List<String> itemNames);
+}

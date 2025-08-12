@@ -1,0 +1,5 @@
+package com.wipro.fooddeliveryapp.restuarant.servicess;
+
+public interface RestuarantService {
+
+}

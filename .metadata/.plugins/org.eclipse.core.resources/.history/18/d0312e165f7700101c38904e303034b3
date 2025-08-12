@@ -1,0 +1,9 @@
+package com.wipro.fooddeliveryapp.menu;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.wipro.fooddeliveryapp.menu.entity.Menu;
+
+public interface MenuRepository extends JpaRepository<Menu, Long> {
+
+}

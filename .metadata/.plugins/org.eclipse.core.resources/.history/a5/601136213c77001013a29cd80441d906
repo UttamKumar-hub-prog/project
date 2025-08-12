@@ -1,0 +1,28 @@
+package com.wipro.fooddeliveryapp.restuarant.controlller;
+
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant;
+import com.wipro.fooddeliveryapp.restuarant.servicess.RestuarantService;
+
+import lombok.RequiredArgsConstructor;
+
+@RestController
+@RequiredArgsConstructor
+public class RestuarantController {
+	private final RestuarantService restuarantService;
+	
+	
+	@PostMapping("/save")
+	public Restuarant save(@RequestBody Restuarant restuarant) {
+		
+		return restuarantService.saveData(restuarant);
+		
+	}
+	
+	
+	
+	
+
+}

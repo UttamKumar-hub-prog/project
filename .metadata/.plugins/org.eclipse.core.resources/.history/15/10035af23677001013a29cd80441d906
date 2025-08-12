@@ -1,0 +1,5 @@
+package com.wipro.fooddeliveryapp.restuarant.entitys;
+
+public class Restuarant {
+
+}

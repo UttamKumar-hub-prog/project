@@ -1,0 +1,14 @@
+package com.wipro.fooddeliveryapp.restuarant.feign;
+
+import java.awt.Menu;
+import java.util.List;
+
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
+
+@FeignClient(name = "MENU-SERVICE")
+public interface MenuFeignClient {
+
+	@GetMapping("/api/v1/menu/restaurant/{restaurantId}")
+	List<Menu> getMenusByRestaurantId(@PathVariable("restaurantId") Long restaurantId);
+}

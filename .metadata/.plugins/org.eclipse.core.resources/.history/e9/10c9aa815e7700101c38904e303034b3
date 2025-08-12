@@ -1,0 +1,5 @@
+package com.wipro.fooddeliveryapp.menu.servicess;
+
+public class MenuServiceImpl implements MenuService {
+
+}
