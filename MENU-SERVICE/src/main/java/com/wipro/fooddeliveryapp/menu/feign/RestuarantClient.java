@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import com.wipro.fooddeliveryapp.menu.entity.RestaurantDTO;
 
-@FeignClient(name = "RESTAURANT-SERVICE", path = "/api/v1/restuarant")
+@FeignClient(name = "RESTUARANT-SERVICE", path = "/api/v1/restuarant")
 public interface RestuarantClient {
 
 	@GetMapping("/getById/{id}")

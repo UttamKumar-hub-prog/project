@@ -5,6 +5,7 @@ import java.util.List;
 import org.springframework.stereotype.Service;
 
 import com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant;
+import com.wipro.fooddeliveryapp.restuarant.exception.ResourceNotFoundException;
 import com.wipro.fooddeliveryapp.restuarant.repositorys.RestuarantRepository;
 
 import lombok.RequiredArgsConstructor;
@@ -29,7 +30,7 @@ public class RestuarantServiceImpl implements RestuarantService {
 
 	public Restuarant getRestaurantById(Long id) {
 		return restuarantRepository.findById(id)
-				.orElseThrow(() -> new RuntimeException("Restaurant not found with ID: " + id));
+				.orElseThrow(() -> new ResourceNotFoundException("Restaurant not found with ID: " + id));
 	}
 
 	public Restuarant updateRestaurant(Long id, Restuarant updatedRestaurant) {

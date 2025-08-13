@@ -4,9 +4,13 @@ package com.wipro.fooddeliveryapp.order.services;
 import java.util.List;
 
 import org.springframework.stereotype.Service;
+
 import com.wipro.fooddeliveryapp.menu.entity.Menu;
 import com.wipro.fooddeliveryapp.order.entitys.Order;
 import com.wipro.fooddeliveryapp.order.entitys.RestaurantDTO;
+import com.wipro.fooddeliveryapp.order.exception.MenuItemNotFoundException;
+import com.wipro.fooddeliveryapp.order.exception.OrderNotFoundException;
+import com.wipro.fooddeliveryapp.order.exception.RestaurantNotFoundException;
 import com.wipro.fooddeliveryapp.order.feign.MenuClient;
 import com.wipro.fooddeliveryapp.order.feign.RestaurantClient;
 import com.wipro.fooddeliveryapp.order.repositoryy.OrderRepository;
@@ -18,21 +22,21 @@ import lombok.RequiredArgsConstructor;
 public class OrderServiceImpl implements OrderService {
 
     private final OrderRepository orderRepository;
-    private final MenuClient menuClient;  // Feign client for MenuService
-    private final RestaurantClient restaurantClient;  // Feign client for RestaurantService
+    private final MenuClient menuClient;   
+    private final RestaurantClient restaurantClient;   
 
     @Override
     public Order placeOrder(Order order) {
         // Verify if the restaurant exists
         RestaurantDTO restaurant = restaurantClient.getRestaurantById(order.getRestaurantId());
         if (restaurant == null) {
-            throw new RuntimeException("Restaurant not found");
+            throw new RestaurantNotFoundException("Restaurant not found");
         }
 
         // Verify if the menu items exist
         List<Menu> menus = menuClient.getMenusByIds(order.getMenuItemIds());
         if (menus.isEmpty()) {
-            throw new RuntimeException("Menu items not found");
+            throw new MenuItemNotFoundException("Menu items not found");
         }
 
         // Calculate total amount
@@ -58,7 +62,7 @@ public class OrderServiceImpl implements OrderService {
     @Override
     public Order getOrderById(Long id) {
         return orderRepository.findById(id)
-                .orElseThrow(() -> new RuntimeException("Order not found with ID: " + id));
+                .orElseThrow(() -> new OrderNotFoundException("Order not found with ID: " + id));
     }
 
     @Override

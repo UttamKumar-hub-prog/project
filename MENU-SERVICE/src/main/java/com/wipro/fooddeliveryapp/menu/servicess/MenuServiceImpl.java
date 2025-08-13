@@ -6,6 +6,8 @@ import org.springframework.stereotype.Service;
 
 import com.wipro.fooddeliveryapp.menu.entity.Menu;
 import com.wipro.fooddeliveryapp.menu.entity.RestaurantDTO;
+import com.wipro.fooddeliveryapp.menu.exception.MenuNotFoundException;
+import com.wipro.fooddeliveryapp.menu.exception.RestaurantNotFoundException;
 import com.wipro.fooddeliveryapp.menu.feign.RestuarantClient;
 import com.wipro.fooddeliveryapp.menu.repositorys.MenuRepository;
 
@@ -20,7 +22,7 @@ public class MenuServiceImpl implements MenuService {
 	public Menu createMenu(Menu menu, Long restaurantId) {
 		RestaurantDTO restaurant = restaurantClient.getRestaurantById(restaurantId);
 		if (restaurant == null) {
-			throw new RuntimeException("Restaurant not found");
+			throw new MenuNotFoundException("Restaurant not found");
 		}
 		menu.setRestaurantId(restaurantId);
 		return menuRepository.save(menu);
@@ -35,7 +37,18 @@ public class MenuServiceImpl implements MenuService {
 	}
 
 	public List<Menu> getMenusByRestaurantId(Long restaurantId) {
-		return menuRepository.findByRestaurantId(restaurantId);
+		boolean restaurantExists = menuRepository.existsById(restaurantId);
+	    if (!restaurantExists) {
+	        throw new RestaurantNotFoundException("Restaurant with ID " + restaurantId + " not found");
+	    }
+
+	    
+	    List<Menu> menus = menuRepository.findByRestaurantId(restaurantId);
+	    if (menus.isEmpty()) {
+	        throw new MenuNotFoundException("No menus found for Restaurant ID " + restaurantId);
+	    }
+
+	    return menus;
 	}
 
 	public List<Menu> getSelectedMenus(Long restaurantId, List<String> itemNames) {
@@ -55,6 +68,11 @@ public class MenuServiceImpl implements MenuService {
 	public void deleteMenu(Long id) {
 		Menu existing = getMenuById(id);
 		menuRepository.delete(existing);
+	}
+
+	@Override
+	public RestaurantDTO getRestaurantById(Long id) {
+		return restaurantClient.getRestaurantById(id);
 	}
 	
 	 

@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant;
 import com.wipro.fooddeliveryapp.restuarant.servicess.RestuarantService;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -24,7 +25,7 @@ public class RestuarantController {
 	private final RestuarantService restuarantService;
 
 	@PostMapping("/savedata")
-	public Restuarant saveData(@RequestBody Restuarant restaurant) {
+	public Restuarant saveData(@Valid @RequestBody Restuarant restaurant) {
 		return restuarantService.saveData(restaurant);
 	}
 
@@ -40,45 +41,19 @@ public class RestuarantController {
 	}
 
 	@PutMapping("/updateById/{id}")
-	public Restuarant update(@PathVariable Long id, @RequestBody Restuarant restaurant) {
+	public Restuarant update(@PathVariable Long id, @Valid @RequestBody Restuarant restaurant) {
 		return restuarantService.updateRestaurant(id, restaurant);
 	}
-	
+
 	@PatchMapping("/PatchUpdateById/{id}")
-    public Restuarant partialUpdate(@PathVariable Long id, @RequestBody Restuarant restaurant) {
-        return restuarantService.patchUpdateById(id, restaurant);
-    }
+	public Restuarant partialUpdate(@PathVariable Long id, @Valid @RequestBody Restuarant restaurant) {
+		return restuarantService.patchUpdateById(id, restaurant);
+	}
 
 	@DeleteMapping("/deleteById/{id}")
 	public String delete(@PathVariable Long id) {
 		restuarantService.deleteRestaurant(id);
 		return "Restaurant with ID " + id + " deleted successfully.";
 	}
-	
- 
-	}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- 
+}

@@ -1,8 +1,0 @@
-package com.wipro.fooddeliveryapp.restuarant.servicess;
-
-import org.springframework.stereotype.Service;
-
-@Service
-public class RestuarantServiceImpl implements RestuarantService {
-
-}

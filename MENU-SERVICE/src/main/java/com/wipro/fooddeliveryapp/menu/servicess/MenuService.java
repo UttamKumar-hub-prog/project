@@ -3,6 +3,7 @@ package com.wipro.fooddeliveryapp.menu.servicess;
 import java.util.List;
 
 import com.wipro.fooddeliveryapp.menu.entity.Menu;
+import com.wipro.fooddeliveryapp.menu.entity.RestaurantDTO;
 
 public interface MenuService {
 
@@ -19,5 +20,7 @@ public interface MenuService {
 	Menu updateMenu(Long id, Menu menu);
 
 	void deleteMenu(Long id);
+
+	RestaurantDTO getRestaurantById(Long id);
 
 }

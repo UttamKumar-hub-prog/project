@@ -15,6 +15,7 @@ import org.springframework.web.bind.annotation.RestController;
 import com.wipro.fooddeliveryapp.order.entitys.Order;
 import com.wipro.fooddeliveryapp.order.services.OrderService;
 
+import jakarta.validation.Valid;
 import lombok.RequiredArgsConstructor;
 
 @RestController
@@ -26,7 +27,7 @@ public class OrderController {
 
     // Place a new order
     @PostMapping("/placeOrder")
-    public Order placeOrder(@RequestBody Order order) {
+    public Order placeOrder(@Valid @RequestBody Order order) {
         return orderService.placeOrder(order);
     }
 
@@ -44,7 +45,7 @@ public class OrderController {
 
     // Update order status (e.g., "Completed", "Cancelled")
     @PutMapping("/updateOrderStatus/{id}")
-    public Order updateOrderStatus(@PathVariable Long id, @RequestParam String status) {
+    public Order updateOrderStatus(@PathVariable Long id,@Valid @RequestParam String status) {
         return orderService.updateOrderStatus(id, status);
     }
 

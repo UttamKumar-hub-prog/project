@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 
 import com.wipro.fooddeliveryapp.menu.entity.Menu;
 
-@FeignClient(name = "menu-service", url = "http://localhost:8081/api/v1/menu")
+@FeignClient(name = "MENU-SERVICE", path = "/api/v1/menu")
 public interface MenuClient {
 
     @GetMapping("/getMenusByIds")
