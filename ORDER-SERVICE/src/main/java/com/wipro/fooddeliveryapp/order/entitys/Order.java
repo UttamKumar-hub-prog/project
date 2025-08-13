@@ -8,8 +8,8 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
-import jakarta.validation.constraints.NotNull;
 import jakarta.validation.constraints.Positive;
 import lombok.AllArgsConstructor;
 import lombok.Data;
@@ -25,9 +25,9 @@ public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long orderId;
-    @NotNull(message = "Customer ID cannot be null")
+    @NotBlank(message = "Customer ID cannot be null")
     private Long customerId;  
-    @NotNull(message = "Restaurant ID cannot be null")
+    @NotBlank(message = "Restaurant ID cannot be null")
     private Long restaurantId;
     @NotEmpty(message = "Menu item list cannot be empty")
     @ElementCollection

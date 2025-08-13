@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.wipro.fooddeliveryapp.order.entitys.Order;
+import com.wipro.fooddeliveryapp.order.entitys.OrderDTO;
 import com.wipro.fooddeliveryapp.order.services.OrderService;
 
 import jakarta.validation.Valid;
@@ -25,11 +26,11 @@ public class OrderController {
 
     private final OrderService orderService;
 
-    // Place a new order
-    @PostMapping("/placeOrder")
-    public Order placeOrder(@Valid @RequestBody Order order) {
-        return orderService.placeOrder(order);
-    }
+//    // Place a new order
+//    @PostMapping("/placeOrder")
+//    public OrderDTO placeOrder(@Valid @RequestBody Order order) {
+//        return orderService.createOrder(order);
+//    }
 
     // Get all orders
     @GetMapping("/getAllOrders")
@@ -37,11 +38,11 @@ public class OrderController {
         return orderService.getAllOrders();
     }
 
-    // Get order by ID
-    @GetMapping("/getOrderById/{id}")
-    public Order getOrderById(@PathVariable Long id) {
-        return orderService.getOrderById(id);
-    }
+//    // Get order by ID
+//    @GetMapping("/getOrderById/{id}")
+//    public Order getOrderById(@PathVariable Long id) {
+//        return orderService.getOrderById(id);
+//    }
 
     // Update order status (e.g., "Completed", "Cancelled")
     @PutMapping("/updateOrderStatus/{id}")
@@ -54,5 +55,15 @@ public class OrderController {
     public String deleteOrder(@PathVariable Long id) {
         orderService.deleteOrder(id);
         return "Order with ID " + id + " deleted successfully.";
+    }
+    
+    @PostMapping("/placeOrder")
+    public OrderDTO placeOrder(@RequestBody OrderDTO orderDTO) {
+        return orderService.placeOrder(orderDTO);
+    }
+
+    @GetMapping("/getOrderById/{id}")
+    public OrderDTO getOrder(@PathVariable Long id) {
+        return orderService.getOrderById(id);
     }
 }

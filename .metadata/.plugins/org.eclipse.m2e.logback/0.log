@@ -1838,3 +1838,209 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact com.wipro.foo
 2025-08-13 12:46:55,381 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
 2025-08-13 12:46:55,398 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
 2025-08-13 12:46:55,402 [Worker-64: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\Iiht-Project\MENU-SERVICE\src\test\resources
+2025-08-13 15:26:18,707 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-08-13 15:33:59,334 [Worker-15: Building] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT @ E:\Iiht-Project\CONFIG-SERVER\pom.xml.
+2025-08-13 15:34:02,871 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:34:02,919 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:34:02,932 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\Iiht-Project\CONFIG-SERVER\src\test\resources
+2025-08-13 15:34:09,614 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-13 15:34:15,863 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT @ E:\Iiht-Project\CONFIG-SERVER\pom.xml.
+2025-08-13 15:34:18,335 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro:DISCOVERY-SERVICE:0.0.1-SNAPSHOT @ E:\Iiht-Project\DISCOVERY-SERVICE\pom.xml.
+2025-08-13 15:34:18,736 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro:com.wipro:0.0.1-SNAPSHOT @ E:\Iiht-Project\MENU-SERVICE\pom.xml.
+2025-08-13 15:34:19,233 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro:ORDER-SERVICE:0.0.1-SNAPSHOT @ E:\Iiht-Project\ORDER-SERVICE\pom.xml.
+2025-08-13 15:34:19,615 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MENU-SERVICE: com.wipro:com.wipro:0.0.1-SNAPSHOT with classifier  to /MENU-SERVICE/target/classes
+2025-08-13 15:34:19,616 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CONFIG-SERVER: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT with classifier  to /CONFIG-SERVER/target/classes
+2025-08-13 15:34:20,382 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ORDER-SERVICE: com.wipro:ORDER-SERVICE:0.0.1-SNAPSHOT with classifier  to /ORDER-SERVICE/target/classes
+2025-08-13 15:34:20,382 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MENU-SERVICE: com.wipro:com.wipro:0.0.1-SNAPSHOT with classifier  to /MENU-SERVICE/target/classes
+2025-08-13 15:34:20,382 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CONFIG-SERVER: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT with classifier  to /CONFIG-SERVER/target/classes
+2025-08-13 15:34:20,470 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro:fooddeliveryapp:0.0.1-SNAPSHOT @ E:\Iiht-Project\PAYMENT-SERVICE\pom.xml.
+2025-08-13 15:34:20,654 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ORDER-SERVICE: com.wipro:ORDER-SERVICE:0.0.1-SNAPSHOT with classifier  to /ORDER-SERVICE/target/classes
+2025-08-13 15:34:20,654 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MENU-SERVICE: com.wipro:com.wipro:0.0.1-SNAPSHOT with classifier  to /MENU-SERVICE/target/classes
+2025-08-13 15:34:20,654 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CONFIG-SERVER: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT with classifier  to /CONFIG-SERVER/target/classes
+2025-08-13 15:34:20,748 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro:RESTUARANT-SERVICE:0.0.1-SNAPSHOT @ E:\Iiht-Project\RESTUARANT-SERVICE\pom.xml.
+2025-08-13 15:34:25,904 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CONFIG-SERVER/src/main/java
+2025-08-13 15:34:25,907 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CONFIG-SERVER/src/main/resources
+2025-08-13 15:34:25,909 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CONFIG-SERVER/src/main/resources
+2025-08-13 15:34:25,910 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /CONFIG-SERVER/src/test/java
+2025-08-13 15:34:25,911 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /CONFIG-SERVER/src/test/resources
+2025-08-13 15:34:26,920 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DISCOVERY-SERVICE/src/main/java
+2025-08-13 15:34:26,921 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DISCOVERY-SERVICE/src/main/resources
+2025-08-13 15:34:26,923 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DISCOVERY-SERVICE/src/main/resources
+2025-08-13 15:34:26,923 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /DISCOVERY-SERVICE/src/test/java
+2025-08-13 15:34:26,924 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /DISCOVERY-SERVICE/src/test/resources
+2025-08-13 15:34:27,619 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MENU-SERVICE/src/main/java
+2025-08-13 15:34:27,619 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MENU-SERVICE/src/main/resources
+2025-08-13 15:34:27,620 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MENU-SERVICE/src/main/resources
+2025-08-13 15:34:27,621 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /MENU-SERVICE/src/test/java
+2025-08-13 15:34:27,622 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /MENU-SERVICE/src/test/resources
+2025-08-13 15:34:28,615 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ORDER-SERVICE/src/main/java
+2025-08-13 15:34:28,616 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ORDER-SERVICE/src/main/resources
+2025-08-13 15:34:28,617 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ORDER-SERVICE/src/main/resources
+2025-08-13 15:34:28,618 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /ORDER-SERVICE/src/test/java
+2025-08-13 15:34:28,620 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /ORDER-SERVICE/src/test/resources
+2025-08-13 15:34:29,579 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PAYMENT-SERVICE/src/main/java
+2025-08-13 15:34:29,580 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PAYMENT-SERVICE/src/main/resources
+2025-08-13 15:34:29,582 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PAYMENT-SERVICE/src/main/resources
+2025-08-13 15:34:29,583 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /PAYMENT-SERVICE/src/test/java
+2025-08-13 15:34:29,585 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /PAYMENT-SERVICE/src/test/resources
+2025-08-13 15:34:31,187 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RESTUARANT-SERVICE/src/main/java
+2025-08-13 15:34:31,188 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RESTUARANT-SERVICE/src/main/resources
+2025-08-13 15:34:31,192 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RESTUARANT-SERVICE/src/main/resources
+2025-08-13 15:34:31,194 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /RESTUARANT-SERVICE/src/test/java
+2025-08-13 15:34:31,196 [Worker-6: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /RESTUARANT-SERVICE/src/test/resources
+2025-08-13 15:34:33,802 [Worker-6: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 6 poms: local refresh takes 0.00 sec, refresh facades takes 15.00 sec, update config takes 7.00 sec 
+2025-08-13 15:34:34,512 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:34:34,534 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:34:34,541 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\Iiht-Project\CONFIG-SERVER\src\test\resources
+2025-08-13 15:34:34,988 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:34:35,010 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:34:35,016 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\Iiht-Project\DISCOVERY-SERVICE\src\test\resources
+2025-08-13 15:34:37,026 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:34:37,067 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:34:37,078 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\Iiht-Project\MENU-SERVICE\src\test\resources
+2025-08-13 15:34:38,497 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:34:38,613 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:34:38,634 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:34:40,135 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:34:40,205 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:34:40,239 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\Iiht-Project\PAYMENT-SERVICE\src\test\resources
+2025-08-13 15:34:41,869 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:34:41,921 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:34:41,934 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\Iiht-Project\RESTUARANT-SERVICE\src\test\resources
+2025-08-13 15:35:50,808 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:35:50,863 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:35:50,900 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\Iiht-Project\PAYMENT-SERVICE\src\test\resources
+2025-08-13 15:41:57,239 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:41:57,259 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:41:57,280 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\Iiht-Project\RESTUARANT-SERVICE\src\test\resources
+2025-08-13 15:42:51,493 [Worker-19: Launching ORDER-SERVICE - OrderServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MENU-SERVICE: com.wipro:com.wipro:0.0.1-SNAPSHOT with classifier null to /MENU-SERVICE/target/classes
+2025-08-13 15:42:51,520 [Worker-19: Launching ORDER-SERVICE - OrderServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CONFIG-SERVER: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT with classifier null to /CONFIG-SERVER/target/classes
+2025-08-13 15:42:52,036 [Worker-19: Launching ORDER-SERVICE - OrderServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MENU-SERVICE: com.wipro:com.wipro:0.0.1-SNAPSHOT with classifier null to /MENU-SERVICE/target/classes
+2025-08-13 15:42:52,037 [Worker-19: Launching ORDER-SERVICE - OrderServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CONFIG-SERVER: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT with classifier null to /CONFIG-SERVER/target/classes
+2025-08-13 15:42:52,495 [Worker-19: Launching ORDER-SERVICE - OrderServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MENU-SERVICE: com.wipro:com.wipro:0.0.1-SNAPSHOT with classifier null to /MENU-SERVICE/target/classes
+2025-08-13 15:42:52,496 [Worker-19: Launching ORDER-SERVICE - OrderServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CONFIG-SERVER: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT with classifier null to /CONFIG-SERVER/target/classes
+2025-08-13 15:43:45,993 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:43:46,043 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:43:46,062 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\Iiht-Project\PAYMENT-SERVICE\src\test\resources
+2025-08-13 15:43:46,853 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ORDER-SERVICE: com.wipro:ORDER-SERVICE:0.0.1-SNAPSHOT with classifier null to /ORDER-SERVICE/target/classes
+2025-08-13 15:43:46,854 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MENU-SERVICE: com.wipro:com.wipro:0.0.1-SNAPSHOT with classifier null to /MENU-SERVICE/target/classes
+2025-08-13 15:43:46,855 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CONFIG-SERVER: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT with classifier null to /CONFIG-SERVER/target/classes
+2025-08-13 15:43:47,452 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ORDER-SERVICE: com.wipro:ORDER-SERVICE:0.0.1-SNAPSHOT with classifier null to /ORDER-SERVICE/target/classes
+2025-08-13 15:43:47,453 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MENU-SERVICE: com.wipro:com.wipro:0.0.1-SNAPSHOT with classifier null to /MENU-SERVICE/target/classes
+2025-08-13 15:43:47,454 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CONFIG-SERVER: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT with classifier null to /CONFIG-SERVER/target/classes
+2025-08-13 15:43:48,122 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ORDER-SERVICE: com.wipro:ORDER-SERVICE:0.0.1-SNAPSHOT with classifier null to /ORDER-SERVICE/target/classes
+2025-08-13 15:43:48,123 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MENU-SERVICE: com.wipro:com.wipro:0.0.1-SNAPSHOT with classifier null to /MENU-SERVICE/target/classes
+2025-08-13 15:43:48,125 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CONFIG-SERVER: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT with classifier null to /CONFIG-SERVER/target/classes
+2025-08-13 15:49:34,204 [Worker-23: Launching ORDER-SERVICE - OrderServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MENU-SERVICE: com.wipro:com.wipro:0.0.1-SNAPSHOT with classifier null to /MENU-SERVICE/target/classes
+2025-08-13 15:49:34,205 [Worker-23: Launching ORDER-SERVICE - OrderServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CONFIG-SERVER: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT with classifier null to /CONFIG-SERVER/target/classes
+2025-08-13 15:49:34,830 [Worker-23: Launching ORDER-SERVICE - OrderServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MENU-SERVICE: com.wipro:com.wipro:0.0.1-SNAPSHOT with classifier null to /MENU-SERVICE/target/classes
+2025-08-13 15:49:34,832 [Worker-23: Launching ORDER-SERVICE - OrderServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CONFIG-SERVER: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT with classifier null to /CONFIG-SERVER/target/classes
+2025-08-13 15:49:35,570 [Worker-23: Launching ORDER-SERVICE - OrderServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MENU-SERVICE: com.wipro:com.wipro:0.0.1-SNAPSHOT with classifier null to /MENU-SERVICE/target/classes
+2025-08-13 15:49:35,572 [Worker-23: Launching ORDER-SERVICE - OrderServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CONFIG-SERVER: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT with classifier null to /CONFIG-SERVER/target/classes
+2025-08-13 15:52:05,908 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:52:05,968 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:52:05,978 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:52:08,811 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:52:08,818 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:52:08,827 [Worker-18: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:54:56,999 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:54:57,042 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:54:57,072 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:55:12,981 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:55:12,990 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:55:12,995 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:55:21,305 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:55:21,319 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:55:21,332 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:55:38,636 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:55:38,655 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:55:38,668 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:55:43,143 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:55:43,157 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:55:43,165 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:56:33,493 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:56:33,505 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:56:33,528 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:56:43,347 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:56:43,360 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:56:43,371 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:56:51,279 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:56:51,291 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:56:51,297 [Worker-16: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:56:57,471 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:56:57,479 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:56:57,484 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:57:26,416 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:57:26,428 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:57:26,436 [Worker-20: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:58:16,331 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:58:16,346 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:58:16,356 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:58:28,833 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:58:28,842 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:58:28,848 [Worker-6: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:58:32,210 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:58:32,223 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:58:32,235 [Worker-21: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:58:35,163 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:58:35,178 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:58:35,185 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:59:00,159 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:59:00,165 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:59:00,171 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:59:02,869 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:59:02,878 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:59:02,890 [Worker-23: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:59:22,438 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:59:22,447 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:59:22,457 [Worker-19: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 15:59:30,840 [Worker-19: Launching ORDER-SERVICE - OrderServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MENU-SERVICE: com.wipro:com.wipro:0.0.1-SNAPSHOT with classifier null to /MENU-SERVICE/target/classes
+2025-08-13 15:59:30,841 [Worker-19: Launching ORDER-SERVICE - OrderServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CONFIG-SERVER: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT with classifier null to /CONFIG-SERVER/target/classes
+2025-08-13 15:59:31,473 [Worker-19: Launching ORDER-SERVICE - OrderServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MENU-SERVICE: com.wipro:com.wipro:0.0.1-SNAPSHOT with classifier null to /MENU-SERVICE/target/classes
+2025-08-13 15:59:31,474 [Worker-19: Launching ORDER-SERVICE - OrderServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CONFIG-SERVER: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT with classifier null to /CONFIG-SERVER/target/classes
+2025-08-13 15:59:31,920 [Worker-19: Launching ORDER-SERVICE - OrderServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MENU-SERVICE: com.wipro:com.wipro:0.0.1-SNAPSHOT with classifier null to /MENU-SERVICE/target/classes
+2025-08-13 15:59:31,920 [Worker-19: Launching ORDER-SERVICE - OrderServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CONFIG-SERVER: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT with classifier null to /CONFIG-SERVER/target/classes
+2025-08-13 15:59:37,643 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 15:59:37,653 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 15:59:37,659 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 16:30:05,296 [Worker-21: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro:fooddeliveryapp:0.0.1-SNAPSHOT @ E:\Iiht-Project\NOTIFICATION-SERVICE\pom.xml.
+2025-08-13 16:30:08,991 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /NOTIFICATION-SERVICE/src/main/java
+2025-08-13 16:30:08,991 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /NOTIFICATION-SERVICE/src/main/resources
+2025-08-13 16:30:08,998 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /NOTIFICATION-SERVICE/src/main/resources
+2025-08-13 16:30:09,004 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /NOTIFICATION-SERVICE/src/test/java
+2025-08-13 16:30:09,005 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /NOTIFICATION-SERVICE/src/test/resources
+2025-08-13 16:30:10,826 [Worker-21: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Imported and configured 1 project(s) in 8 sec
+2025-08-13 16:30:10,833 [Worker-21: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-13 16:30:12,357 [Worker-21: Import Getting Started Content] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro:fooddeliveryapp:0.0.1-SNAPSHOT @ E:\Iiht-Project\NOTIFICATION-SERVICE\pom.xml.
+2025-08-13 16:30:16,549 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /NOTIFICATION-SERVICE/src/main/java
+2025-08-13 16:30:16,551 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /NOTIFICATION-SERVICE/src/main/resources
+2025-08-13 16:30:16,552 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /NOTIFICATION-SERVICE/src/main/resources
+2025-08-13 16:30:16,553 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /NOTIFICATION-SERVICE/src/test/java
+2025-08-13 16:30:16,555 [Worker-21: Import Getting Started Content] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /NOTIFICATION-SERVICE/src/test/resources
+2025-08-13 16:30:19,437 [Worker-21: Import Getting Started Content] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 5.00 sec, update config takes 2.00 sec 
+2025-08-13 16:30:19,966 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update started
+2025-08-13 16:30:21,622 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.l.LifecycleMappingFactory - Using org.eclipse.m2e.jdt.JarLifecycleMapping lifecycle mapping for MavenProject: com.wipro:fooddeliveryapp:0.0.1-SNAPSHOT @ E:\Iiht-Project\NOTIFICATION-SERVICE\pom.xml.
+2025-08-13 16:30:25,051 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /NOTIFICATION-SERVICE/src/main/java
+2025-08-13 16:30:25,052 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /NOTIFICATION-SERVICE/src/main/resources
+2025-08-13 16:30:25,055 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /NOTIFICATION-SERVICE/src/main/resources
+2025-08-13 16:30:25,057 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding source folder /NOTIFICATION-SERVICE/src/test/java
+2025-08-13 16:30:25,059 [Worker-23: Updating Maven Project] INFO  o.e.m.j.i.AbstractJavaProjectConfigurator - Adding resource folder /NOTIFICATION-SERVICE/src/test/resources
+2025-08-13 16:30:26,646 [Worker-23: Updating Maven Project] INFO  o.e.m.c.i.p.ProjectConfigurationManager - Update completed for 1 poms: local refresh takes 0.00 sec, refresh facades takes 4.00 sec, update config takes 1.00 sec 
+2025-08-13 16:30:27,678 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 16:30:27,749 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 16:30:27,765 [Worker-25: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\Iiht-Project\NOTIFICATION-SERVICE\src\test\resources
+2025-08-13 16:30:57,982 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 16:30:58,005 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 16:30:58,011 [Worker-27: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\test\resources to target\test-classes
+2025-08-13 16:31:04,951 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ORDER-SERVICE: com.wipro:ORDER-SERVICE:0.0.1-SNAPSHOT with classifier null to /ORDER-SERVICE/target/classes
+2025-08-13 16:31:04,953 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MENU-SERVICE: com.wipro:com.wipro:0.0.1-SNAPSHOT with classifier null to /MENU-SERVICE/target/classes
+2025-08-13 16:31:04,953 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CONFIG-SERVER: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT with classifier null to /CONFIG-SERVER/target/classes
+2025-08-13 16:31:05,716 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ORDER-SERVICE: com.wipro:ORDER-SERVICE:0.0.1-SNAPSHOT with classifier null to /ORDER-SERVICE/target/classes
+2025-08-13 16:31:05,717 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MENU-SERVICE: com.wipro:com.wipro:0.0.1-SNAPSHOT with classifier null to /MENU-SERVICE/target/classes
+2025-08-13 16:31:05,719 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CONFIG-SERVER: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT with classifier null to /CONFIG-SERVER/target/classes
+2025-08-13 16:31:06,667 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/ORDER-SERVICE: com.wipro:ORDER-SERVICE:0.0.1-SNAPSHOT with classifier null to /ORDER-SERVICE/target/classes
+2025-08-13 16:31:06,668 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/MENU-SERVICE: com.wipro:com.wipro:0.0.1-SNAPSHOT with classifier null to /MENU-SERVICE/target/classes
+2025-08-13 16:31:06,669 [Worker-6: Launching PAYMENT-SERVICE - PaymentServiceApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/CONFIG-SERVER: com.wipro:CONFIG-SERVER:0.0.1-SNAPSHOT with classifier null to /CONFIG-SERVER/target/classes
+2025-08-13 16:58:40,323 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-08-13 16:58:40,483 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-08-13 16:58:40,493 [Worker-30: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory E:\Iiht-Project\NOTIFICATION-SERVICE\src\test\resources

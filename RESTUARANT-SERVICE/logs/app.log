@@ -179,3 +179,438 @@
 2025-08-13T12:46:03.746+05:30  INFO 4628 --- [RESTUARANT-SERVICE] [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
 2025-08-13T12:46:03.795+05:30  INFO 4628 --- [RESTUARANT-SERVICE] [RMI TCP Connection(17)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
 2025-08-13T12:46:03.799+05:30  INFO 4628 --- [RESTUARANT-SERVICE] [RMI TCP Connection(17)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...
+2025-08-13T15:38:27.548+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] c.w.f.r.RestuarantServiceApplication     : Starting RestuarantServiceApplication using Java 21.0.7 with PID 15944 (E:\Iiht-Project\RESTUARANT-SERVICE\target\classes started by uttam in E:\Iiht-Project\RESTUARANT-SERVICE)
+2025-08-13T15:38:27.829+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] c.w.f.r.RestuarantServiceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T15:38:27.909+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T15:38:27.909+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-13T15:38:30.581+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-13T15:38:30.837+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 239 ms. Found 1 JPA repository interface.
+2025-08-13T15:38:31.479+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0aaca881-d966-34eb-9ae8-472cf200e1f0
+2025-08-13T15:38:32.822+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-13T15:38:32.874+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-13T15:38:32.875+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-13T15:38:33.024+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-13T15:38:33.025+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 5114 ms
+2025-08-13T15:38:34.079+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-13T15:38:34.285+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-13T15:38:34.392+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-13T15:38:35.049+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-13T15:38:35.122+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-13T15:38:35.870+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3eb14321
+2025-08-13T15:38:35.875+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-13T15:38:36.004+05:30  WARN 15944 --- [RESTUARANT-SERVICE] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-13T15:38:36.048+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-13T15:38:36.838+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-13T15:38:36.857+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-13T15:38:37.271+05:30  WARN 15944 --- [RESTUARANT-SERVICE] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restuarantController' defined in file [E:\Iiht-Project\RESTUARANT-SERVICE\target\classes\com\wipro\fooddeliveryapp\restuarant\controlller\RestuarantController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'restuarantServiceImpl' defined in file [E:\Iiht-Project\RESTUARANT-SERVICE\target\classes\com\wipro\fooddeliveryapp\restuarant\servicess\RestuarantServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'restuarantRepository' defined in com.wipro.fooddeliveryapp.restuarant.repositorys.RestuarantRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant
+2025-08-13T15:38:37.272+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-13T15:38:37.284+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-13T15:38:37.300+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-13T15:38:37.304+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-08-13T15:38:37.342+05:30  INFO 15944 --- [RESTUARANT-SERVICE] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-13T15:38:37.392+05:30 ERROR 15944 --- [RESTUARANT-SERVICE] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restuarantController' defined in file [E:\Iiht-Project\RESTUARANT-SERVICE\target\classes\com\wipro\fooddeliveryapp\restuarant\controlller\RestuarantController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'restuarantServiceImpl' defined in file [E:\Iiht-Project\RESTUARANT-SERVICE\target\classes\com\wipro\fooddeliveryapp\restuarant\servicess\RestuarantServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'restuarantRepository' defined in com.wipro.fooddeliveryapp.restuarant.repositorys.RestuarantRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.4.jar:3.5.4]
+	at com.wipro.fooddeliveryapp.restuarant.RestuarantServiceApplication.main(RestuarantServiceApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.4.jar:3.5.4]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restuarantServiceImpl' defined in file [E:\Iiht-Project\RESTUARANT-SERVICE\target\classes\com\wipro\fooddeliveryapp\restuarant\servicess\RestuarantServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'restuarantRepository' defined in com.wipro.fooddeliveryapp.restuarant.repositorys.RestuarantRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1745) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'restuarantRepository' defined in com.wipro.fooddeliveryapp.restuarant.repositorys.RestuarantRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1683) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 38 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant
+	at org.hibernate.metamodel.model.domain.internal.JpaMetamodelImpl.managedType(JpaMetamodelImpl.java:223) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:470) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:100) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:82) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:69) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:251) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:215) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:198) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:1) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:380) ~[spring-data-commons-3.5.2.jar:3.5.2]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$4(RepositoryFactoryBeanSupport.java:350) ~[spring-data-commons-3.5.2.jar:3.5.2]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:135) ~[spring-data-commons-3.5.2.jar:3.5.2]
+	at org.springframework.data.util.Lazy.get(Lazy.java:113) ~[spring-data-commons-3.5.2.jar:3.5.2]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:356) ~[spring-data-commons-3.5.2.jar:3.5.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 48 common frames omitted
+
+2025-08-13T15:39:20.894+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] c.w.f.r.RestuarantServiceApplication     : Starting RestuarantServiceApplication using Java 21.0.7 with PID 11980 (E:\Iiht-Project\RESTUARANT-SERVICE\target\classes started by uttam in E:\Iiht-Project\RESTUARANT-SERVICE)
+2025-08-13T15:39:20.898+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] c.w.f.r.RestuarantServiceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T15:39:20.985+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T15:39:20.986+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-13T15:39:22.787+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-13T15:39:22.994+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 194 ms. Found 1 JPA repository interface.
+2025-08-13T15:39:23.283+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0aaca881-d966-34eb-9ae8-472cf200e1f0
+2025-08-13T15:39:24.257+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-13T15:39:24.278+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-13T15:39:24.279+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-13T15:39:24.385+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-13T15:39:24.385+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3397 ms
+2025-08-13T15:39:25.116+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-13T15:39:25.218+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-13T15:39:25.295+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-13T15:39:25.754+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-13T15:39:25.811+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-13T15:39:26.332+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ab7dc63
+2025-08-13T15:39:26.337+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-13T15:39:26.441+05:30  WARN 11980 --- [RESTUARANT-SERVICE] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-13T15:39:26.504+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-13T15:39:27.088+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-13T15:39:27.097+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-13T15:39:27.418+05:30  WARN 11980 --- [RESTUARANT-SERVICE] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restuarantController' defined in file [E:\Iiht-Project\RESTUARANT-SERVICE\target\classes\com\wipro\fooddeliveryapp\restuarant\controlller\RestuarantController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'restuarantServiceImpl' defined in file [E:\Iiht-Project\RESTUARANT-SERVICE\target\classes\com\wipro\fooddeliveryapp\restuarant\servicess\RestuarantServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'restuarantRepository' defined in com.wipro.fooddeliveryapp.restuarant.repositorys.RestuarantRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant
+2025-08-13T15:39:27.419+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-13T15:39:27.427+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-13T15:39:27.439+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-13T15:39:27.445+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-08-13T15:39:27.475+05:30  INFO 11980 --- [RESTUARANT-SERVICE] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-13T15:39:27.510+05:30 ERROR 11980 --- [RESTUARANT-SERVICE] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restuarantController' defined in file [E:\Iiht-Project\RESTUARANT-SERVICE\target\classes\com\wipro\fooddeliveryapp\restuarant\controlller\RestuarantController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'restuarantServiceImpl' defined in file [E:\Iiht-Project\RESTUARANT-SERVICE\target\classes\com\wipro\fooddeliveryapp\restuarant\servicess\RestuarantServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'restuarantRepository' defined in com.wipro.fooddeliveryapp.restuarant.repositorys.RestuarantRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.4.jar:3.5.4]
+	at com.wipro.fooddeliveryapp.restuarant.RestuarantServiceApplication.main(RestuarantServiceApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.4.jar:3.5.4]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restuarantServiceImpl' defined in file [E:\Iiht-Project\RESTUARANT-SERVICE\target\classes\com\wipro\fooddeliveryapp\restuarant\servicess\RestuarantServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'restuarantRepository' defined in com.wipro.fooddeliveryapp.restuarant.repositorys.RestuarantRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1745) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'restuarantRepository' defined in com.wipro.fooddeliveryapp.restuarant.repositorys.RestuarantRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1683) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 38 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant
+	at org.hibernate.metamodel.model.domain.internal.JpaMetamodelImpl.managedType(JpaMetamodelImpl.java:223) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:470) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:100) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:82) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:69) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:251) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:215) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:198) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:1) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:380) ~[spring-data-commons-3.5.2.jar:3.5.2]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$4(RepositoryFactoryBeanSupport.java:350) ~[spring-data-commons-3.5.2.jar:3.5.2]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:135) ~[spring-data-commons-3.5.2.jar:3.5.2]
+	at org.springframework.data.util.Lazy.get(Lazy.java:113) ~[spring-data-commons-3.5.2.jar:3.5.2]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:356) ~[spring-data-commons-3.5.2.jar:3.5.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 48 common frames omitted
+
+2025-08-13T15:40:58.448+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] c.w.f.r.RestuarantServiceApplication     : Starting RestuarantServiceApplication using Java 21.0.7 with PID 1780 (E:\Iiht-Project\RESTUARANT-SERVICE\target\classes started by uttam in E:\Iiht-Project\RESTUARANT-SERVICE)
+2025-08-13T15:40:58.453+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] c.w.f.r.RestuarantServiceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T15:40:58.552+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T15:40:58.553+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-13T15:41:00.775+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-13T15:41:01.029+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 237 ms. Found 1 JPA repository interface.
+2025-08-13T15:41:01.332+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0aaca881-d966-34eb-9ae8-472cf200e1f0
+2025-08-13T15:41:02.720+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-13T15:41:02.742+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-13T15:41:02.743+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-13T15:41:02.852+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-13T15:41:02.853+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4298 ms
+2025-08-13T15:41:03.638+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-13T15:41:03.732+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-13T15:41:03.788+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-13T15:41:04.221+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-13T15:41:04.276+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-13T15:41:04.742+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fb6bd66
+2025-08-13T15:41:04.745+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-13T15:41:04.826+05:30  WARN 1780 --- [RESTUARANT-SERVICE] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-13T15:41:04.870+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-13T15:41:05.562+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-13T15:41:05.573+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-13T15:41:05.859+05:30  WARN 1780 --- [RESTUARANT-SERVICE] [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restuarantController' defined in file [E:\Iiht-Project\RESTUARANT-SERVICE\target\classes\com\wipro\fooddeliveryapp\restuarant\controlller\RestuarantController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'restuarantServiceImpl' defined in file [E:\Iiht-Project\RESTUARANT-SERVICE\target\classes\com\wipro\fooddeliveryapp\restuarant\servicess\RestuarantServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'restuarantRepository' defined in com.wipro.fooddeliveryapp.restuarant.repositorys.RestuarantRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant
+2025-08-13T15:41:05.860+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-13T15:41:05.866+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-13T15:41:05.879+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-13T15:41:05.883+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2025-08-13T15:41:05.914+05:30  INFO 1780 --- [RESTUARANT-SERVICE] [restartedMain] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2025-08-13T15:41:05.953+05:30 ERROR 1780 --- [RESTUARANT-SERVICE] [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restuarantController' defined in file [E:\Iiht-Project\RESTUARANT-SERVICE\target\classes\com\wipro\fooddeliveryapp\restuarant\controlller\RestuarantController.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'restuarantServiceImpl' defined in file [E:\Iiht-Project\RESTUARANT-SERVICE\target\classes\com\wipro\fooddeliveryapp\restuarant\servicess\RestuarantServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'restuarantRepository' defined in com.wipro.fooddeliveryapp.restuarant.repositorys.RestuarantRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.instantiateSingleton(DefaultListableBeanFactory.java:1222) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingleton(DefaultListableBeanFactory.java:1188) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:1123) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:987) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:627) ~[spring-context-6.2.9.jar:6.2.9]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:752) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:318) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1361) ~[spring-boot-3.5.4.jar:3.5.4]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1350) ~[spring-boot-3.5.4.jar:3.5.4]
+	at com.wipro.fooddeliveryapp.restuarant.RestuarantServiceApplication.main(RestuarantServiceApplication.java:13) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:50) ~[spring-boot-devtools-3.5.4.jar:3.5.4]
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'restuarantServiceImpl' defined in file [E:\Iiht-Project\RESTUARANT-SERVICE\target\classes\com\wipro\fooddeliveryapp\restuarant\servicess\RestuarantServiceImpl.class]: Unsatisfied dependency expressed through constructor parameter 0: Error creating bean with name 'restuarantRepository' defined in com.wipro.fooddeliveryapp.restuarant.repositorys.RestuarantRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:804) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:240) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1395) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1232) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:569) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:254) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1745) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 24 common frames omitted
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'restuarantRepository' defined in com.wipro.fooddeliveryapp.restuarant.repositorys.RestuarantRepository defined in @EnableJpaRepositories declared on JpaRepositoriesRegistrar.EnableJpaRepositoriesConfiguration: Not a managed type: class com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1826) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:607) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:529) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:339) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:373) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:337) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1683) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1628) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:913) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 38 common frames omitted
+Caused by: java.lang.IllegalArgumentException: Not a managed type: class com.wipro.fooddeliveryapp.restuarant.entitys.Restuarant
+	at org.hibernate.metamodel.model.domain.internal.JpaMetamodelImpl.managedType(JpaMetamodelImpl.java:223) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:470) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.hibernate.metamodel.model.domain.internal.MappingMetamodelImpl.managedType(MappingMetamodelImpl.java:100) ~[hibernate-core-6.6.22.Final.jar:6.6.22.Final]
+	at org.springframework.data.jpa.repository.support.JpaMetamodelEntityInformation.<init>(JpaMetamodelEntityInformation.java:82) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.data.jpa.repository.support.JpaEntityInformationSupport.getEntityInformation(JpaEntityInformationSupport.java:69) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getEntityInformation(JpaRepositoryFactory.java:251) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:215) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:198) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactory.getTargetRepository(JpaRepositoryFactory.java:1) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.data.repository.core.support.RepositoryFactorySupport.getRepository(RepositoryFactorySupport.java:380) ~[spring-data-commons-3.5.2.jar:3.5.2]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.lambda$afterPropertiesSet$4(RepositoryFactoryBeanSupport.java:350) ~[spring-data-commons-3.5.2.jar:3.5.2]
+	at org.springframework.data.util.Lazy.getNullable(Lazy.java:135) ~[spring-data-commons-3.5.2.jar:3.5.2]
+	at org.springframework.data.util.Lazy.get(Lazy.java:113) ~[spring-data-commons-3.5.2.jar:3.5.2]
+	at org.springframework.data.repository.core.support.RepositoryFactoryBeanSupport.afterPropertiesSet(RepositoryFactoryBeanSupport.java:356) ~[spring-data-commons-3.5.2.jar:3.5.2]
+	at org.springframework.data.jpa.repository.support.JpaRepositoryFactoryBean.afterPropertiesSet(JpaRepositoryFactoryBean.java:132) ~[spring-data-jpa-3.5.2.jar:3.5.2]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1873) ~[spring-beans-6.2.9.jar:6.2.9]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1822) ~[spring-beans-6.2.9.jar:6.2.9]
+	... 48 common frames omitted
+
+2025-08-13T15:42:03.820+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] c.w.f.r.RestuarantServiceApplication     : Starting RestuarantServiceApplication using Java 21.0.7 with PID 2632 (E:\Iiht-Project\RESTUARANT-SERVICE\target\classes started by uttam in E:\Iiht-Project\RESTUARANT-SERVICE)
+2025-08-13T15:42:03.827+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] c.w.f.r.RestuarantServiceApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-08-13T15:42:03.991+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2025-08-13T15:42:03.992+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2025-08-13T15:42:06.174+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-08-13T15:42:06.371+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 181 ms. Found 1 JPA repository interface.
+2025-08-13T15:42:06.688+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0aaca881-d966-34eb-9ae8-472cf200e1f0
+2025-08-13T15:42:07.736+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-08-13T15:42:07.757+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-08-13T15:42:07.758+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.43]
+2025-08-13T15:42:07.856+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-08-13T15:42:07.857+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3864 ms
+2025-08-13T15:42:08.569+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-08-13T15:42:08.659+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.22.Final
+2025-08-13T15:42:08.721+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-08-13T15:42:09.164+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-08-13T15:42:09.218+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-08-13T15:42:09.732+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1f131af9
+2025-08-13T15:42:09.735+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-08-13T15:42:09.818+05:30  WARN 2632 --- [RESTUARANT-SERVICE] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-08-13T15:42:09.855+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0.41
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-08-13T15:42:11.347+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-08-13T15:42:11.438+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-08-13T15:42:12.020+05:30  WARN 2632 --- [RESTUARANT-SERVICE] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-08-13T15:42:13.475+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-08-13T15:42:13.539+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] DiscoveryClientOptionalArgsConfiguration : Eureka HTTP Client uses RestTemplate.
+2025-08-13T15:42:13.627+05:30  WARN 2632 --- [RESTUARANT-SERVICE] [restartedMain] iguration$LoadBalancerCaffeineWarnLogger : Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2025-08-13T15:42:13.696+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 1 endpoint beneath base path '/actuator'
+2025-08-13T15:42:13.886+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2025-08-13T15:42:13.925+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Initializing Eureka in region us-east-1
+2025-08-13T15:42:13.931+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-13T15:42:13.944+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Disable delta property : false
+2025-08-13T15:42:13.945+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Single vip registry refresh property : null
+2025-08-13T15:42:13.946+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Force full registry fetch : false
+2025-08-13T15:42:13.946+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application is null : false
+2025-08-13T15:42:13.946+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Registered Applications size is zero : true
+2025-08-13T15:42:13.946+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Application version is -1: true
+2025-08-13T15:42:13.946+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Getting all instance registry info from the eureka server
+2025-08-13T15:42:14.630+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : The response status is 200
+2025-08-13T15:42:14.635+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Starting heartbeat executor: renew interval is: 30
+2025-08-13T15:42:14.638+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] c.n.discovery.InstanceInfoReplicator     : InstanceInfoReplicator onDemand update allowed rate per min is 4
+2025-08-13T15:42:14.641+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1755079934640 with initial instances count: 1
+2025-08-13T15:42:14.652+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] o.s.c.n.e.s.EurekaServiceRegistry        : Registering application RESTUARANT-SERVICE with eureka with status UP
+2025-08-13T15:42:14.654+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1755079934654, current=UP, previous=STARTING]
+2025-08-13T15:42:14.657+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RESTUARANT-SERVICE/chandu:RESTUARANT-SERVICE: registering service...
+2025-08-13T15:42:14.696+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-08-13T15:42:14.698+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] .s.c.n.e.s.EurekaAutoServiceRegistration : Updating port to 8080
+2025-08-13T15:42:14.737+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RESTUARANT-SERVICE/chandu:RESTUARANT-SERVICE - registration status: 204
+2025-08-13T15:42:14.747+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [restartedMain] c.w.f.r.RestuarantServiceApplication     : Started RestuarantServiceApplication in 11.706 seconds (process running for 13.185)
+2025-08-13T15:42:15.119+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [RMI TCP Connection(9)-127.0.0.1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-08-13T15:42:15.119+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-08-13T15:42:15.123+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [RMI TCP Connection(9)-127.0.0.1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2025-08-13T15:47:13.949+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-13T15:52:13.951+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-13T15:57:13.953+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-13T16:02:03.885+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [http-nio-8080-exec-1] c.w.f.restuarant.aop.LoggingAspect       : ➡ Entering method: Restuarant com.wipro.fooddeliveryapp.restuarant.controlller.RestuarantController.getById(Long) with args: [1]
+2025-08-13T16:02:04.524+05:30 ERROR 2632 --- [RESTUARANT-SERVICE] [http-nio-8080-exec-1] c.w.f.restuarant.aop.LoggingAspect       : ❌ Exception in method: Restuarant com.wipro.fooddeliveryapp.restuarant.controlller.RestuarantController.getById(Long) with message: Restaurant not found with ID: 1
+2025-08-13T16:02:04.691+05:30  WARN 2632 --- [RESTUARANT-SERVICE] [http-nio-8080-exec-1] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.wipro.fooddeliveryapp.restuarant.exception.ResourceNotFoundException: Restaurant not found with ID: 1]
+2025-08-13T16:02:13.955+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-13T16:02:25.253+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [http-nio-8080-exec-2] c.w.f.restuarant.aop.LoggingAspect       : ➡ Entering method: Restuarant com.wipro.fooddeliveryapp.restuarant.controlller.RestuarantController.getById(Long) with args: [1]
+2025-08-13T16:02:25.259+05:30 ERROR 2632 --- [RESTUARANT-SERVICE] [http-nio-8080-exec-2] c.w.f.restuarant.aop.LoggingAspect       : ❌ Exception in method: Restuarant com.wipro.fooddeliveryapp.restuarant.controlller.RestuarantController.getById(Long) with message: Restaurant not found with ID: 1
+2025-08-13T16:02:25.265+05:30  WARN 2632 --- [RESTUARANT-SERVICE] [http-nio-8080-exec-2] .m.m.a.ExceptionHandlerExceptionResolver : Resolved [com.wipro.fooddeliveryapp.restuarant.exception.ResourceNotFoundException: Restaurant not found with ID: 1]
+2025-08-13T16:07:13.957+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-13T16:12:13.958+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-13T16:17:13.960+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-13T16:22:13.962+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-13T16:27:13.963+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-13T16:32:13.965+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [AsyncResolver-bootstrap-executor-%d] c.n.d.s.r.aws.ConfigClusterResolver      : Resolving eureka endpoints via configuration
+2025-08-13T16:32:45.478+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [RMI TCP Connection(61)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-13T16:32:45.511+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [RMI TCP Connection(62)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2025-08-13T16:32:45.512+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [RMI TCP Connection(61)-127.0.0.1] o.s.c.n.e.s.EurekaServiceRegistry        : Unregistering application RESTUARANT-SERVICE with eureka with status DOWN
+2025-08-13T16:32:45.513+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [RMI TCP Connection(61)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Saw local status change event StatusChangeEvent [timestamp=1755082965513, current=DOWN, previous=UP]
+2025-08-13T16:32:45.514+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RESTUARANT-SERVICE/chandu:RESTUARANT-SERVICE: registering service...
+2025-08-13T16:32:45.548+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [DiscoveryClient-InstanceInfoReplicator-%d] com.netflix.discovery.DiscoveryClient    : DiscoveryClient_RESTUARANT-SERVICE/chandu:RESTUARANT-SERVICE - registration status: 204
+2025-08-13T16:32:45.576+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [RMI TCP Connection(61)-127.0.0.1] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-08-13T16:32:45.621+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-08-13T16:32:45.679+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [RMI TCP Connection(61)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-08-13T16:32:45.746+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [RMI TCP Connection(61)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-08-13T16:32:45.760+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [RMI TCP Connection(61)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-08-13T16:32:45.767+05:30  INFO 2632 --- [RESTUARANT-SERVICE] [RMI TCP Connection(61)-127.0.0.1] com.netflix.discovery.DiscoveryClient    : Shutting down DiscoveryClient ...

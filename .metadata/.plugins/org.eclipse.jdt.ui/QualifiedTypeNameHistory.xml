@@ -21,4 +21,5 @@
     <fullyQualifiedTypeName name="com.wipro.fooddeliveryapp.order.exception.RestaurantNotFoundException"/>
     <fullyQualifiedTypeName name="jakarta.validation.constraints.NotEmpty"/>
     <fullyQualifiedTypeName name="jakarta.validation.constraints.NotNull"/>
+    <fullyQualifiedTypeName name="com.wipro.fooddeliveryapp.order.entitys.RestaurantDTO"/>
 </qualifiedTypeNameHistroy>

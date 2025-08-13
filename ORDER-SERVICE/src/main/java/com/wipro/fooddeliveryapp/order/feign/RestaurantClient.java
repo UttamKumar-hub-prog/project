@@ -8,7 +8,6 @@ import com.wipro.fooddeliveryapp.order.entitys.RestaurantDTO;
 
 @FeignClient(name = "RESTUARANT-SERVICE", path = "/api/v1/restuarant")
 public interface RestaurantClient {
-
     @GetMapping("/getById/{id}")
-    RestaurantDTO getRestaurantById(@PathVariable("id") Long id);
+    RestaurantDTO getRestaurantById(@PathVariable Long id);
 }
